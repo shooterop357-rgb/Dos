@@ -1,1 +1,1 @@
-worker: python soul.py
+worker: python bot.py
