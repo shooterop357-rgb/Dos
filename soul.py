@@ -34,7 +34,7 @@ logger = logging.getLogger(__name__)
 # =========================
 # BOT CONFIG
 # =========================
-BOT_TOKEN = os.getenv("7395213244:AAFkHJQ9InXnnBWJtkpThY6qz9mL_l7wbls")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 YML_FILE_PATH = ".github/workflows/main.yml"
 BINARY_FILE_NAME = "soul"
