@@ -6,10 +6,18 @@ import time
 import random
 import string
 from datetime import datetime, timedelta
-from telegram import Update
-from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters, ConversationHandler
-from github import Github, GithubException
 
+from telegram import Update
+from telegram.ext import (
+    Updater,
+    CommandHandler,
+    MessageHandler,
+    Filters,
+    ConversationHandler,
+    CallbackContext
+)
+
+from github import Github, GithubException
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
